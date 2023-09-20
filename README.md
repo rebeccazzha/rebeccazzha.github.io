@@ -18,9 +18,17 @@ Demo Video(https://youtu.be/pIXlWWEwJvY)
 
 ## Project Overview
 
-This homepage serves as a personal digital space, shedding light on my journey from my home country to my academic endeavors in the US. Detailed sections offer insights into my professional experience and extracurricular activities.
+This homepage serves as a personal digital space, shedding light on my journey from my home country to my academic endeavors in the US. 
 
-Designed with meticulous care and attention, the website provides a seamless navigation experience with a structured layout, prominent central section, and a user-friendly sidebar to enhance user engagement.
+[index page](./img/index_page.png)
+
+Detailed sections offer insights into my education history, professional experience, and extracurricular activities.
+
+[education page](./img/education_page.png)
+
+The sidebar is highlighted automatically as you scroll to corresponding sections, and clicking on names also lead you to related sectiions. 
+
+[extracurricular page](./img/extracurricular_page.png)
 
 ## Setup and Usage
 
@@ -32,3 +40,8 @@ Designed with meticulous care and attention, the website provides a seamless nav
 
 Used ChatGPT for descriptive paragraphs in the index page.
 
+[paragraph 1](./img/Acedemic_History.png)
+
+[paragraph 2](./img/Homepage.png)
+
+[paragraph 3](./img/Meet_my_cats.png)
