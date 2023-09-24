@@ -6,11 +6,11 @@ A personal homepage project designed to showcase my journey, experiences, and mo
 
 **Xiangyue Zhang**  
 Website: [rebeccazzha.github.io](https://rebeccazzha.github.io)  
-Class Link: [Web Development Spring 2019](http://johnguerra.co/classes/webDevelopment_spring_2019/)
+Class Link: [Web Development Fall 2023](https://johnguerra.co/classes/webDevelopment_fall_2023/)
 
 ## Demo Video
 
-Demo Video(https://youtu.be/pIXlWWEwJvY)
+Demo Video(https://youtu.be/xHyWLfxrp6U)
 
 ## Presentation Slides
 
@@ -20,15 +20,15 @@ Demo Video(https://youtu.be/pIXlWWEwJvY)
 
 This homepage serves as a personal digital space, shedding light on my journey from my home country to my academic endeavors in the US. 
 
-[index page](./img/index_page.png)
+[index page](./img/new_index_page.png)
 
 Detailed sections offer insights into my education history, professional experience, and extracurricular activities.
 
-[education page](./img/education_page.png)
+[education page](./img/new_education_page.png)
 
 The sidebar is highlighted automatically as you scroll to corresponding sections, and clicking on names also lead you to related sectiions. 
 
-[extracurricular page](./img/extracurricular_page.png)
+[extracurricular page](./img/new_extracurricular_page.png)
 
 ## Setup and Usage
 
