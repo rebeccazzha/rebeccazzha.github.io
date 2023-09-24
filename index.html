@@ -2,94 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Xiangyue Zhang" />
+    <meta name="description" content="Xiangyue Zhang's personal homepage" />
     <title>Image Descriptions</title>
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/demo.css" />
   </head>
   <body>
+    <div class="container mt-5 main-intro">
+      <div>
+        <h1 class="card-title">Xiangyue Zhang's Homepage</h1>
+        <p class="card-text">
+          Welcome to my personal homepage! I've journeyed through various
+          academic pursuits, from the arts to the sciences, and I've documented
+          my academic milestones and accomplishments in detail. If you're
+          interested in diving deeper into my background and achievements, I
+          invite you to explore my comprehensive academic resume.
+        </p>
+        <button
+          class="btn btn-primary"
+          onclick="window.location.href='resume.html'"
+        >
+          Check resume
+        </button>
+      </div>
+    </div>
+
     <div class="container mt-5">
-      <div class="card horizontal-card mt-5 smaller">
-        <div class="row g-0">
-          <div class="col-md-6 image-bg">
-            <img
-              class="card-img"
-              src="img/usc.jpeg"
-              alt="image of college life at USC"
-            />
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title">Academic history</h4>
-              <p class="card-text">
-                Born and raised in China, I moved to the U.S. at 18 to pursue my
-                undergraduate studies at the University of Southern California,
-                where I majored in Accounting and minored in Dance. Afterward, I
-                relocated to the Bay Area to earn a Master's degree in Computer
-                Science from Northeastern University.
-              </p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card horizontal-card card-flip">
+            <div class="card-inner">
+              <div class="card-front">
+                <img
+                  class="card-img"
+                  src="img/usc.jpeg"
+                  alt="image of college life at USC"
+                />
+              </div>
+              <div class="card-back">
+                <h4 class="card-title">Academic history</h4>
+                <p class="card-text">
+                  Born and raised in China, I moved to the U.S. at 18 to pursue
+                  my undergraduate studies at the University of Southern
+                  California, where I majored in Accounting and minored in
+                  Dance. Afterward, I relocated to the Bay Area to earn a
+                  Master's degree in Computer Science from Northeastern
+                  University.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="card horizontal-card main-content mt-5">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <h1 class="card-title">Xiangyue Zhang's Homepage</h1>
-              <p class="card-text">
-                Welcome to my personal homepage! I've journeyed through various
-                academic pursuits, from the arts to the sciences, and I've
-                documented my academic milestones and accomplishments in detail.
-                If you're interested in diving deeper into my background and
-                achievements, I invite you to explore my comprehensive academic
-                resume.
-              </p>
-              <button
-                class="btn btn-primary"
-                onclick="window.location.href='resume.html'"
-              >
-                Check resume
-              </button>
-            </div>
-          </div>
-          <div class="col-md-6 image-bg">
-            <img
-              class="card-img"
-              src="img/resume_thumbnail.jpg"
-              alt="thumbnail picture for resume page"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="card horizontal-card mt-5 smaller">
-        <div class="row g-0">
-          <div class="col-md-6 image-bg">
-            <img
-              class="card-img"
-              src="img/cats.jpeg"
-              alt="An image of my cats"
-            />
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title">Meet my cats!</h4>
-              <p class="card-text">
-                My home is filled with the playful antics and affectionate purrs
-                of my two beloved cats, YY and Chloe. YY is a short-hair boy
-                with energetic and inquisitive nature, while Chloe is a
-                long-hair girl with grace and elegance. Together, they bring
-                immeasurable joy and comfort into my life. More than just pets,
-                they have become my confidants and loyal companions, and their
-                unconditional love and playful personalities make them truly my
-                best friends in the world!
-              </p>
+        <div class="col-md-6">
+          <div class="card horizontal-card card-flip">
+            <div class="card-inner">
+              <div class="card-front">
+                <img
+                  class="card-img"
+                  src="img/cats.jpeg"
+                  alt="An image of my cats"
+                />
+              </div>
+              <div class="card-back">
+                <h4 class="card-title">Meet my cats!</h4>
+                <p class="card-text">
+                  My home is filled with the playful antics and affectionate
+                  purrs of my two beloved cats, YY and Chloe. YY is a short-hair
+                  boy with energetic and inquisitive nature, while Chloe is a
+                  long-hair girl with grace and elegance. Together, they bring
+                  immeasurable joy and comfort into my life. More than just
+                  pets, they have become my confidants and loyal companions, and
+                  their unconditional love and playful personalities make them
+                  truly my best friends in the world!
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="js/card.js"></script>
   </body>
 </html>
